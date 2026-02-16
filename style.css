@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+/* Títulos de las secciones */
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+/* Texto del código Hex */
+.hex-text {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+/* Input Color personalizado para parecerse a un botón */
+.form-control-color {
+    height: 38px;
+    padding: 0.2rem;
+    border: 1px solid #ced4da;
+    cursor: pointer;
+}
+
+/* Espaciador para la columna blanca que no tiene input */
+.static-spacer {
+    height: 38px; /* Misma altura que el input color */
+}
+
+/* --- BLOQUES DE LA BANDERA --- */
+.flag-section {
+    height: 400px; /* Altura de la bandera */
+    width: 100%;
+    transition: background-color 0.2s ease;
+    border: 1px solid rgba(0,0,0,0.05); /* Borde sutil */
+}
+
+/* Bordes redondeados solo en las esquinas exteriores */
+.left-section {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.right-section {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Escudo */
+.escudo-img {
+    width: 80%;
+    max-width: 280px;
+    height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+/* Sección de Alumnos */
+.students-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: 0 auto; /* Centrar bloque */
+}
+
+.list-group-item {
+    font-size: 1.05rem;
+    border: none;
+    padding: 5px 15px;
+}

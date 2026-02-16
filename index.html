@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México Interactiva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container mt-5 main-wrapper">
+        <h1 class="text-center mb-5 fw-bold display-4">Bandera de México</h1>
+
+        <div class="row g-0 justify-content-center align-items-end">
+            
+            <div class="col-md-4">
+                <div class="control-area text-center mb-3">
+                    <label class="section-title">Esperanza</label>
+                    <input type="color" class="form-control form-control-color w-100" id="pickerGreen" value="#006847" title="Elige el tono de verde">
+                    <div class="hex-text mt-2" id="greenHex">#006847</div>
+                </div>
+                <div id="stripeGreen" class="flag-section left-section"></div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="control-area text-center mb-3">
+                    <label class="section-title">Unidad</label>
+                    <div class="static-spacer"></div> <div class="hex-text mt-2 text-muted">#FFFFFF</div>
+                </div>
+                <div class="flag-section center-section bg-white d-flex align-items-center justify-content-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg" alt="Escudo Nacional" class="escudo-img">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="control-area text-center mb-3">
+                    <label class="section-title">Sangre de nuestros héroes</label>
+                    <input type="color" class="form-control form-control-color w-100" id="pickerRed" value="#CE1126" title="Elige el tono de rojo">
+                    <div class="hex-text mt-2" id="redHex">#CE1126</div>
+                </div>
+                <div id="stripeRed" class="flag-section right-section"></div>
+            </div>
+
+        </div>
+
+        <div class="students-container mt-5 text-center">
+            <h5 class="mb-3 text-secondary">Integrantes del Equipo</h5>
+            <ul class="list-group list-group-flush d-inline-block">
+                <li class="list-group-item bg-transparent">Karla Esperanza Sanchez Esqueda - <strong>23200898</strong></li>
+                <li class="list-group-item bg-transparent">Iker Adrik Perez Badillo - <strong>23200876</strong></li>
+                <li class="list-group-item bg-transparent">Nancy Jazareth Lugo Cruz - <strong>23200858</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
